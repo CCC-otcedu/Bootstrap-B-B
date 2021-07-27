@@ -1,0 +1,61 @@
+/*
+This is for the stylesheet page about the Bootstrap website
+Chad Coburn, 7-26-2021
+A website for the Bootstrap B&B assignment submission in CIS-130
+*.
+
+
+html {
+  border: 2px solid black;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+body {
+  border-radius: 50px;
+  background-image: url("background.png");
+}
+
+header {
+  border-bottom: 2px solid black;
+  text-align: center;
+  box-shadow: 6px 6px 24px 9px grey;
+}
+
+.display-4 {
+  border-bottom: 2px solid black;
+  text-align: center;
+  box-shadow: 5px 5px 25px 8px black;
+}
+
+header > p {
+  text-align: center;
+  text-shadow: 1px 1px white;
+  font-size: 14pt;
+}
+
+h1 > script {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 24px 9px black;
+}
+
+.heading {
+  padding: 25px;
+}
+
+.card-group {
+  padding: 25px;
+  border: solid black 2px;
+}
+
+.form-group {
+  border: solid black 1px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
